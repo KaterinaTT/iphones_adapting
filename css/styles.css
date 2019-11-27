@@ -1,0 +1,204 @@
+.device_text
+{
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#blocks_design
+{
+   
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto; 
+    border: 0.5px solid red;
+}
+
+
+.block
+{   
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+
+#part
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    line-height: initial;
+}
+
+
+#litle_blocks_design1
+{
+    width: 150px;
+    text-align: center;
+    border-radius: 45px;
+    margin-left: auto;
+    margin-right: 15px;
+    height: auto; 
+    border: 0.5px solid red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(to right, red , pink);
+}
+
+
+
+.points
+{
+    padding-left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    margin-top: 12px;
+    line-height: 31px;
+ }
+
+.exit
+{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+
+li
+{
+    text-align: left;
+    list-style-image: url(imgs/vv.png);
+}
+
+.footer
+{
+    position: absolute;
+    margin-left: 25%;
+    bottom: 0px;
+    font-size: 9px;
+    color: gray;
+}
+
+.title
+{
+    margin-top: 70px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+.save
+{
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 40px;
+    color: red;
+}
+
+.doll1
+{
+    font-size: 13px;
+    margin-left: 24px;
+    color: red;
+}
+
+
+#litle_blocks_design2
+{
+    width: 150px;
+    text-align: center;
+    border-radius: 45px;
+    margin-left: auto;
+    margin-right: 15px;
+    height: auto; 
+    border: 0.5px solid red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(to right, red , pink);
+}
+
+
+.doll2
+{
+    font-size: 13px;
+    margin-left: 40px;
+    margin-top: 10px;
+    color: red;
+}
+
+.privaty
+{
+    background: linear-gradient(to bottom, gray, #F2F2F2);  
+    -webkit-background-clip: text;  
+    color: transparent;
+}
+
+a
+{
+    text-decoration: line-through;
+}
+
+
+@media (min-width: 375px)
+{
+    .title 
+    {
+    margin-top: 120px;
+    font-size:38px;
+    }
+    
+    .save 
+    {
+    font-size: 25px;
+    margin-left: 40px;
+    
+    }
+    
+    #litle_blocks_design1
+    {
+        width: 170px;
+        font-size: 15px;
+    }
+    
+    
+    .doll1
+    {
+        font-size: 15px;
+        margin-left: 0px;
+    }
+    
+    #part 
+    {
+    line-height: 23px;
+    }
+      
+    .doll2 
+    {
+    font-size: 15px;
+    }
+      
+    #litle_blocks_design2
+    {
+        width: 170px;
+        font-size: 15px;
+    }
+    
+  .footer
+    {
+      margin-left: 27%;
+    }
+}
+
+
